@@ -1,0 +1,152 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-main{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90px;
+}
+.logo-search-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+
+ 
+
+}
+.logo-search-sec img{
+    width: 90px;
+    height: 90px;
+
+}
+.logo-search-sec input{
+    width: 500px;
+    height: 35px;
+    outline-color: grey;
+   background-color: rgb(255, 255, 255);
+  border-width: .1px;
+  border-color: rgb(200, 191, 191);
+  padding-left: 10px;
+}
+.logo-search-sec div{
+    display: flex;
+}
+.logo-search-sec button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color:rgb(53, 116, 109) ;
+    color: white;
+}
+.header-btns{
+    display: flex;
+    justify-content:space-around ;
+
+    width: 20%;
+}
+.header-btns button{
+    background-color: white;
+    border: none;
+    font-size: 17px;
+
+}
+.icon{
+    position: relative;
+}
+.fa-solid.fa-bag-shopping {
+    position: relative;
+    z-index: 1;
+}
+
+.icon-count {
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: rgb(234, 116, 169);
+   color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    z-index: 2;
+}
+.login-btn{
+    background-color:rgb(53, 116, 109)!important ;
+    width: 70px;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+}
+.navbar button{
+    background-color: white;
+    border: none;
+    font-weight: 500;
+ 
+
+}
+
+@media(max-width:865px){
+    
+    .header-main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-search-sec input{
+        width: 90%;
+    }
+    .logo-search-sec img{
+        width: 50px;
+        height: 50px;
+    }
+    .login-btn{
+        width: 50px;
+        font-size: 10px!important;
+    }
+    .header-btns{
+        width: 50%;
+    }
+    .navbar{
+        width: 100%;
+        
+    }
+    .navbar button{
+        font-size: 12px!important;
+    }
+    
+}
+@media(max-width:567px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .navbar button{
+        font-size: 7px!important;
+   display: flex;
+   flex-wrap: wrap;
+        width: 30px;
+    }
+   
+}
