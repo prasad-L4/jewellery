@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- header- logo and searchbar section -->
+        <div class="header">
+          <div class="header-main">
+            <div class="logo-search-sec">
+              <img src="./Images/logo.png" alt="" />
+              <div>
+                <input placeholder="what are you looking for?" type="text" />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </div>
+            <div class="header-btns">
+              <button>
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.0256 15.0373L14.0089 22.75L5.99223 15.0373M5.99223 15.0373C5.46345 14.5375 5.04695 13.9367 4.76893 13.2729C4.49092 12.609 4.35743 11.8964 4.37685 11.1799C4.39628 10.4634 4.56821 9.75865 4.88182 9.10991C5.19543 8.46117 5.64391 7.88253 6.19904 7.41043C6.75417 6.93833 7.40392 6.583 8.10736 6.36681C8.8108 6.15063 9.55271 6.07827 10.2864 6.15429C11.02 6.23031 11.7295 6.45307 12.3702 6.80854C13.0108 7.16401 13.5688 7.64449 14.0089 8.21972C14.4509 7.64866 15.0095 7.17238 15.6498 6.82069C16.29 6.46899 16.9981 6.24945 17.7296 6.1758C18.4612 6.10215 19.2006 6.17599 19.9015 6.39268C20.6023 6.60937 21.2496 6.96426 21.8028 7.43512C22.356 7.90599 22.8031 8.48271 23.1163 9.12918C23.4295 9.77565 23.6019 10.4779 23.6228 11.1921C23.6438 11.9063 23.5127 12.617 23.2379 13.2797C22.963 13.9424 22.5503 14.5429 22.0256 15.0436"
+                    stroke="#121212"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button>
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.65715 9.33325C9.65715 7.20199 11.3849 5.47427 13.5161 5.47427C15.6474 5.47427 17.3751 7.20199 17.3751 9.33325C17.3751 11.4645 15.6474 13.1922 13.5161 13.1922C11.3849 13.1922 9.65715 11.4645 9.65715 9.33325ZM13.5161 3.85889C10.4927 3.85889 8.04177 6.30984 8.04177 9.33325C8.04177 12.3567 10.4927 14.8076 13.5161 14.8076C16.5395 14.8076 18.9905 12.3567 18.9905 9.33325C18.9905 6.30984 16.5395 3.85889 13.5161 3.85889ZM8.45268 19.3168C9.17638 18.5931 10.1579 18.1865 11.1814 18.1865H15.8481C16.8715 18.1865 17.8531 18.5931 18.5768 19.3168C19.3005 20.0405 19.707 21.022 19.707 22.0455V24.3788C19.707 24.8249 20.0686 25.1865 20.5147 25.1865C20.9608 25.1865 21.3224 24.8249 21.3224 24.3788V22.0455C21.3224 20.5936 20.7457 19.2011 19.719 18.1745C18.6924 17.1479 17.2999 16.5711 15.8481 16.5711H11.1814C9.7295 16.5711 8.33708 17.1479 7.31043 18.1745C6.28379 19.2011 5.70703 20.5936 5.70703 22.0455V24.3788C5.70703 24.8249 6.06865 25.1865 6.51472 25.1865C6.9608 25.1865 7.32242 24.8249 7.32242 24.3788V22.0455C7.32242 21.022 7.72899 20.0405 8.45268 19.3168Z"
+                    fill="#121212"
+                  />
+                </svg>
+              </button>
+              <button>
+                <svg
+                  width="50"
+                  height="34"
+                  viewBox="0 0 50 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.3087 12.9999C11.3087 12.8277 11.3959 12.4619 11.7498 12.1342C12.0916 11.8178 12.7531 11.4743 14.0011 11.4743C15.249 11.4743 15.9105 11.8178 16.2523 12.1342C16.6062 12.4619 16.6934 12.8277 16.6934 12.9999H18.3087C18.3087 12.3944 18.0459 11.5935 17.3498 10.9489C16.6416 10.2932 15.5531 9.85889 14.0011 9.85889C12.449 9.85889 11.3605 10.2932 10.6523 10.9489C9.9562 11.5935 9.69336 12.3944 9.69336 12.9999H11.3087ZM11.3087 13V14.8202H16.6934V13H18.3087V14.8202H21.0831C21.5292 14.8202 21.8908 15.1818 21.8908 15.6279V26.661C21.8908 27.2954 21.6367 27.9024 21.1865 28.3489C20.7365 28.7953 20.1276 29.0449 19.4941 29.0449H8.37128C7.73774 29.0449 7.12885 28.7953 6.67889 28.3489C6.22872 27.9024 5.97461 27.2954 5.97461 26.661V15.6279C5.97461 15.1818 6.33623 14.8202 6.7823 14.8202H9.69336V13H11.3087ZM9.69336 18.8333V16.4356H7.58999V26.661C7.58999 26.8627 7.6707 27.0575 7.81651 27.2021C7.96254 27.3469 8.16197 27.4295 8.37128 27.4295H19.4941C19.7034 27.4295 19.9029 27.3469 20.0489 27.2021C20.1947 27.0575 20.2754 26.8627 20.2754 26.661V16.4356H18.3087V18.8333H16.6934V16.4356H11.3087V18.8333H9.69336Z"
+                    fill="#121212"
+                  />
+                  <g clip-path="url(#clip0_7698_25653)">
+                    <circle cx="25" cy="10" r="10" fill="#FF6FBC" />
+                    <path
+                      d="M21.9281 14V12.6705L25.0346 9.79403C25.2988 9.53835 25.5204 9.30824 25.6994 9.10369C25.8812 8.89915 26.019 8.69886 26.1127 8.50284C26.2065 8.30398 26.2534 8.08949 26.2534 7.85938C26.2534 7.60369 26.1951 7.38352 26.0787 7.19886C25.9622 7.01136 25.8031 6.8679 25.6014 6.76847C25.3997 6.66619 25.171 6.61506 24.9153 6.61506C24.6483 6.61506 24.4153 6.66903 24.2164 6.77699C24.0176 6.88494 23.8642 7.03977 23.7562 7.24148C23.6483 7.44318 23.5943 7.68324 23.5943 7.96165H21.8429C21.8429 7.39062 21.9721 6.89489 22.2306 6.47443C22.4892 6.05398 22.8514 5.72869 23.3173 5.49858C23.7832 5.26847 24.3201 5.15341 24.9281 5.15341C25.5531 5.15341 26.0971 5.2642 26.5602 5.4858C27.0261 5.70455 27.3883 6.00852 27.6468 6.39773C27.9054 6.78693 28.0346 7.23295 28.0346 7.7358C28.0346 8.06534 27.9693 8.39062 27.8386 8.71165C27.7108 9.03267 27.4821 9.3892 27.1525 9.78125C26.823 10.1705 26.3585 10.6378 25.7591 11.1832L24.4849 12.4318V12.4915H28.1497V14H21.9281Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_7698_25653">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(15)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+              <button class="login-btn">Login</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- Navbar -->
+        <nav>
+          <div class="navbar">
+            <button>CONCEPTS</button>
+            <button>JEWELLERY</button>
+            <button>GOLD &DIAMOND</button>
+            <button>POLKI</button>
+            <button>GEMSTONE</button>
+            <button>PLATINUM</button>
+            <button>OFFERS</button>
+            <button>BRANDS</button>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="details-main">
+          <div class="details-sec">
+            <div class="dtls-img-sec">
+              <img src="./Images/product-details.png" alt="" />
+              <div class="dtl-img-cards">
+                <img src="./Images/product-details.png" alt="" /><img
+                  src="./Images/product-details.png"
+                  alt=""
+                /><img src="./Images/product-details.png" alt="" /><img
+                  src="./Images/product-details.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="dtls-main">
+              <div class="dtls-path">
+                <h5>
+                  Home <span><i class="fa-solid fa-angle-right"></i></span>
+                </h5>
+                <h5>
+                  Pendants <span><i class="fa-solid fa-angle-right"></i></span>
+                </h5>
+                <h5>Dazzling Diamond Necklace</h5>
+              </div>
+              <h2>Dazzling Diamond Necklace</h2>
+              <p>Vendor:Zia Jewels</p>
+              <p>Availability:In Stock</p>
+              <p>Product Type:Black To Roots</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>23Reviews</p>
+              </div>
+              <h3>Rs.900,082.98 <del>1000,082.00</del></h3>
+
+              <h6>
+                <span> <i class="fa-regular fa-eye"></i></span> 32 people are
+                looking at this product
+              </h6>
+
+              <h4>Product Details</h4>
+              <hr />
+              <div class="prdct-dtls">
+                <div>
+                  <p>Metal</p>
+                  <p>1162</p>
+                </div>
+                <div>
+                  <p>Purity</p>
+                  <p>gold</p>
+                </div>
+                <div>
+                  <p>Gross Weight</p>
+                  <p>59.522Gr</p>
+                </div>
+                <p>Net Weight</p>
+                <p>Diamond Weight</p>
+                <p>Gemstone Weight</p>
+                <p>Gross Weight</p>
+                <p>Gross Weight</p>
+              </div>
+              <h4>Price Breackdown</h4>
+              <div>
+                <p>Metal Cost</p>
+                <p>Diamond Cost</p>
+                <p>Stone Cost</p>
+                <p>Making Charges</p>
+                <p>Shipping Charges</p>
+                <p>GST</p>
+              </div>
+              <div class="prdct-detls-btnts">
+                <div class="prdct-detls-btnt">
+                  <button>--</button>
+                  <h5>1</h5>
+                  <button>+</button>
+                </div>
+                <button class="addtocart">Add to Cart</button>
+              </div>
+
+              <div class="prdct-links">
+                <h5>
+                  <span><i class="fa-regular fa-heart"></i></span> Wishlist
+                </h5>
+                <h5>
+                  <span><i class="fa-solid fa-question"></i></span>Ask qustion
+                </h5>
+                <h5>
+                  <span><i class="fa-solid fa-square-share-nodes"></i></span
+                  >Share
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- discription -->
+        <div class="dis-main">
+          <div class="dis-sec">
+            <div class="discripton-btns">
+              <button class="active">Description</button>
+              <button>Additional info</button>
+              <button>Reviews(23)</button>
+              <button>Qustions</button>
+            </div>
+            <p>
+              Adorn yourself with the brilliance of our Daxxing necklace.
+              crafted to perfection ,this exquistite piece exudes elegance and
+              sophistication.Each shimmering diamond is meticulosly set to
+              capture the light, creating a mesmerizing sparkle that will
+              captivate all who behold it whether worn for a special occasion or
+              as a statement piece for everyday glamour,this necklace is sure to
+              elavate your style and leave a lasting impression.Experience and
+              allure with our Dazzing Necklace
+            </p>
+
+            <div class="info-sec">
+                <h4>Information</h4>
+                <ul>
+                    <li>Metal</li>
+                    <li>Purity</li>
+                    <li>Gross Weight</li>
+                    <li>Net Weight</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
