@@ -193,7 +193,7 @@
                   <h5>1</h5>
                   <button>+</button>
                 </div>
-                <button class="addtocart">Add to Cart</button>
+                <button id="toggleSidebarBtn" class="addtocart">Add to Cart</button>
               </div>
 
               <div class="prdct-links">
@@ -240,7 +240,7 @@
                     <li>Net Weight</li>
                 </ul>
             </div>
-
+            <!-- Also Like section -->
             <div class="might-cards">
               <div>
                 <h3>You might also like</h3>
@@ -445,6 +445,79 @@
       
       </section>
 
+      <!--  cart -->
+      <div id="sidebar">
+       <div class="cart-title">
+        <h2>CART</h2>
+        <svg id="closeSidebarBtn" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        viewBox="0 0 16 16" fill="none">
+        <path
+            d="M9.414 8L16 1.414L14.586 0L8 6.586L1.414 0L0 1.414L6.586 8L0 14.586L1.414 16L8 9.414L14.586 16L16 14.586L9.414 8Z"
+            fill="#2E2E2E" />
+    </svg>
+
+        
+       </div>
+       <!--cart products -->
+       <div class="cart-products">
+        <div>
+          <img src="./Images/list-card12.png" alt="">
+        </div>
+        <div>
+          <h3>Luxury Diamond Necklace</h3>
+          <p>Gross Weight:400Gr,Metal:1162</p>
+          <div class="cart-count">
+            <div class="cartcnt" style="border: solid 1px grey; display: flex ; gap: 15px; height: 20px; align-items: center; justify-content: center;"><button>--</button> <h5>1</h5> <button>+</button></div>
+            <div>
+              <h4 style="display: flex; gap: 10px;">RS:126000 <span><i class="fa-solid fa-trash-can"></i></span></h4>
+
+            </div>
+          </div>
+        </div>
+        
+       </div>
+       <div class="cart-products">
+        <div>
+          <img src="./Images/list-card3.png" alt="">
+        </div>
+        <div>
+          <h3>Luxury Diamond Necklace</h3>
+          <p>Gross Weight:400Gr,Metal:1162</p>
+          <div class="cart-count">
+            <div class="cartcnt" style="border: solid 1px grey; display: flex ; gap: 15px; height: 20px; align-items: center; justify-content: center;"><button>--</button> <h5>1</h5> <button>+</button></div>
+            <div>
+              <h4 style="display: flex; gap: 10px;">RS:126000 <span><i class="fa-solid fa-trash-can"></i></span></h4>
+
+            </div>
+          </div>
+        </div>
+      
+       </div>
+      <div class="cart-btm-main">
+
+  
+       <div class="cart-btm-sec">
+        <h3>Input</h3>
+        <button>Apply</button>
+       </div>
+       <div class="cart-rate-sec">
+        <div class="cart-btm-sec1">
+          <h3>Subtotal</h3>
+          <p>Rs.234000</p>
+        </div>
+        <div class="cart-btm-sec1">
+          <h4>Total</h4>
+          <p>Rs.234000</p>
+        </div>
+        <button class="checkout-btn">Ceckout</button>
+       </div>
+       <div class="view">
+          <h4>View Cart</h4>
+       </div>
+      </div>
+
+  </div>
+
       <!-- footer section -->
       <footer>
         <div class="footer-section">
@@ -561,5 +634,8 @@
 
      </footer>
     </main>
+
+
+    <script src="Script.js"></script>
   </body>
 </html>

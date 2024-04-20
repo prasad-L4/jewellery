@@ -895,6 +895,161 @@ color: rgb(10, 139, 124);
     justify-content: space-evenly;
     gap: 20px;
 }
+.learn-btn{
+    width: 120px;
+    height: 50px;
+    float: right;
+    margin: 100px;
+    background-color: rgb(10, 139, 124);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 2px;
+}
+#sidebar,#sidebar1{
+    position: fixed;right: 0;top: 0;background-color:white;width: 30%; height: 100vh; display: none; z-index: 99!important;
+     padding: 0px;
+
+     padding-left: 40px!important;
+     overflow-y: auto;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.cart-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 10px;
+}
+.cart-title h2 , .cart-title svg{
+    color: rgb(10, 139, 124);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart-products{
+
+   width: 85%;
+    height: 100px;
+
+    align-items: center!important;
+    display: flex;
+    justify-content: space-between!important;
+    margin-top: 1rem;
+    border-bottom: solid 1px rgb(10, 139, 124);
+   padding-bottom: .5rem!important;
+}
+.cart-products div img{
+    width: 105px;
+    height: 90px;
+    margin-top: 6px;
+}
+.cart-count{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-count div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+.cart-products div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 139, 124);
+    font-weight: 500;
+}
+.cart-products div p{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: .5rem;
+}
+.cart-count div button{
+    background-color: white;
+    border: none;
+    width: 20px;
+    color: rgb(10, 139, 124);
+
+}
+.cart-count div h5,.cart-count div h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(10, 139, 124);
+}
+.cart-btm-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 97%!important;
+    border: solid 1px rgb(177, 172, 172);
+ margin-top: 12rem;
+ border-radius: 7px;
+ height: 35px;
+ padding: 7px;
+ align-items: center;
+}
+.cart-btm-sec h3, .cart-btm-sec1 h3{
+    color: rgb(94, 89, 89);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.cart-btm-sec button{
+    background-color: white;
+    border: none;
+    color: rgb(10, 139, 124);
+    font-weight: 600;
+}
+.cart-rate-sec{
+    border: solid 1px grey ;
+    border-radius: 6px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 97%!important;
+    margin-top: 1rem;
+    padding: 7px;
+
+}
+.cart-btm-sec1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%!important;
+    margin-top: 5px;
+    
+    
+}
+.cart-btm-sec1 h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.checkout-btn{
+     height: 40px!important;
+     
+     background-color: rgb(7, 98, 88);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     margin-top: 1rem;
+}
+.cart-btm-sec1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 12px;
+}
+.cart-btm-main{
+    width: 90%;
+    height: auto!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.view h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 1px rgb(11, 114, 102);
+    font-size: 13px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
 @media(max-width:1204px){
     .prdct-list-cards{
         width: 100%;
@@ -905,6 +1060,13 @@ color: rgb(10, 139, 124);
     }
     .line{
         display: none;
+    }
+    .cart-products{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        padding-bottom: .5rem;
     }
 }
 @media(max-width:865px){
@@ -1073,4 +1235,41 @@ color: rgb(10, 139, 124);
 .sort section label{
     font-size: 11px;
 }
+.cart-title{
+    padding: 0;
+
+}
+.cart-title h2,#closeSidebarBtn{
+    font-size: 14px;
+    margin-top: -1rem;
+}
+.cart-products div h3{
+    font-size: 12px;
+    
+}
+.cart-products div p{
+    font-size: 9px;
+}
+.cart-count div h4{
+    font-size: 9px;
+    gap: 0;
+    display: flex;
+}
+.cartcnt{
+    width: 60px;
+}
+.cartcnt h5{
+    font-size: 9px;
+}
+#sidebar,#sidebar1 {
+    width: 50%;
+    padding-left: 0px!important;
+    padding: 5px!important;
+}
+.cart-products,.cart-btm-main{
+    width: 100%;
+ 
+
+}
+
 }
