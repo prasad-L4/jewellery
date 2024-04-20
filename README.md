@@ -1,0 +1,1 @@
+There is also a cart page accessible from the product details page. When you click the 'Add to Cart' button, the cart page appears. Additionally, the cart page is accessible from both the home page and the product details page through the navbar
